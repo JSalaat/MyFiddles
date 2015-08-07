@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="js/angular.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+<div ng-app="imgRead" ng-controller="Controller">
+    <form name='myform'>
+        <div>
+            <label for="InputFileM">Multiple File input</label>
+            <input type="file" id="inputfilem" ng-model="formImages" accept="image/*" image-Reader multiple/>
+        </div>
+        <div class="row">
+            <label ng-repeat="img in formImages" ng-if="formImages.length>0">
+                <img src="{{img}}" alt="" />
+            </label>
+        </div>
+        <input type="submit" class="btn btn-success btn-group-sm" ng-click="submitImg(myform)" />
+    </form>
+</div>
+</body>
+</html>
