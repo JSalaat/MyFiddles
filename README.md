@@ -11,5 +11,5 @@ Live preview : http://jsfiddle.net/jsalaat/8jkaua0o/
 ## Filter through Directive - Third Fiddle
 Live preview : http://jsfiddle.net/jsalaat/zLd92Lf7/
 
-## Single Image Input Directive - Third Fiddle
+## Single Image Input Directive - Fourth Fiddle
 Live preview : http://jsfiddle.net/jsalaat/m74chkvt/
