@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="js/angular.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+<div ng-app="imgRead" ng-controller="Controller">
+    <div class="form-group">
+        <label for="InputFiled">File input for Definition</label>
+        <input type="file" id="InputFiled" file-def="formImage"/>
+    </div>
+    <input type="submit" class="btn btn-success btn-group-sm" ng-click="submitImg()" />
+</div>
+</body>
+</html>
